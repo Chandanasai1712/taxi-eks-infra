@@ -1,5 +1,5 @@
-output "eks_cluster_id" {
-    value = module.eks.cluster_id_value
+output "eks_cluster_arn" {
+    value = module.eks.cluster_arn_value
 }
 
 output "eks_cluster_endpoint" {
